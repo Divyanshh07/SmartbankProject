@@ -81,7 +81,7 @@
     <h2>Our Bank Gallery</h2>
     <div class="gallery-container">
         <div class="gallery-item">
-            <img src="https://images.pexels.com/photos/8353786/pexels-photo-8353786.jpeg" alt="Bank Branch">
+            <img src="https://images.pexels.com/photos/8353786/pexels-photo-8353786.jpeg" alt="Bank ">
         </div>
         <div class="gallery-item">
             <img src="https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg" alt="ATM">
