@@ -87,7 +87,7 @@
             <img src="https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg" alt="ATM">
         </div>
         <div class="gallery-item">
-            <img src="https://images.pexels.com/photos/12885861/pexels-photo-12885861.jpeg" alt="Bank Event">
+            <img src="https://images.pexels.com/photos/12885861/pexels-photo-12885861.jpeg" alt="Bank ">
         </div>
         <div class="gallery-item">
             <img src="https://images.pexels.com/photos/4968639/pexels-photo-4968639.jpeg" alt="Customer Service">
