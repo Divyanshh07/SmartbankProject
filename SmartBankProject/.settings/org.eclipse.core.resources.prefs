@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/webapp/Home.jsp=UTF-8
+encoding//src/main/webapp/LoginProcess.jsp=UTF-8
+encoding//src/main/webapp/RegisterProcess.jsp=UTF-8
+encoding//src/main/webapp/customers/CheckLoanStatus.jsp=UTF-8
+encoding//src/main/webapp/customers/DownloadLoanPDF.jsp=UTF-8
+encoding//src/main/webapp/customers/LoanApplication.jsp=UTF-8
+encoding//src/main/webapp/employees/ApproveAccounts.jsp=UTF-8
+encoding//src/main/webapp/employees/Loans.jsp=UTF-8
+encoding//src/main/webapp/employees/ProcessTransaction.jsp=UTF-8
+encoding//src/main/webapp/employees/TransactionHistory.jsp=UTF-8
+encoding//src/main/webapp/employees/Transactions.jsp=UTF-8
+encoding/<project>=UTF-8
