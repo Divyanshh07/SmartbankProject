@@ -2,10 +2,10 @@
 FROM tomcat:9.0-jdk17
 
 # Remove default ROOT app
-RUN rm -rf /usr/local/tomcat/webapps/ROOT
+RUN rm -rf /usr/local/tomcat/webapps/SmartBank.war
 
 # Copy your WAR file as ROOT.war
-COPY ROOT.war /usr/local/tomcat/webapps/ROOT.war
+COPY ROOT.war /usr/local/tomcat/webapps/SmartBank.war
 
 # Expose port (Render will use $PORT)
 ENV PORT 10000
