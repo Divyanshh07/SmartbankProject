@@ -1,14 +1,15 @@
-# Use official Tomcat 9 image with JDK 21
-FROM tomcat:9.0-jdk21
+# Use official Tomcat image
+FROM tomcat:9.0-jdk17
 
-# Remove default ROOT webapp
+# Remove default ROOT app
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
-# Copy your WAR file to Tomcat webapps as ROOT
-COPY SmartBank.war /usr/local/tomcat/webapps/SmartBank.war
+# Copy your WAR file as ROOT.war
+COPY ROOT.war /usr/local/tomcat/webapps/ROOT.war
 
-# Expose port 8080 (Render will map $PORT)
-EXPOSE 8080
+# Expose port (Render will use $PORT)
+ENV PORT 10000
+EXPOSE $PORT
 
-# Start Tomcat
-CMD ["catalina.sh", "run"]
+# Use Render-assigned port
+CMD sed -i "s/8080/${PORT}/g" /usr/local/tomcat/conf/server.xml && catalina.sh run
